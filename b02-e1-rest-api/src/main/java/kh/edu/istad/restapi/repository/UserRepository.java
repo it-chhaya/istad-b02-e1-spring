@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-@Repository
+@Repository // Refer data access object implementation
 public class UserRepository {
 
     private final List<User> userData;
